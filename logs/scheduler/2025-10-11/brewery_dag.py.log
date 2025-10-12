@@ -1,0 +1,600 @@
+[2025-10-11T17:42:17.661+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:42:17.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:42:17.666+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:42:17.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:42:17.705+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:42:17.699+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:42:17.708+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:42:17.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.078 seconds
+[2025-10-11T17:42:47.972+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:42:47.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:42:47.976+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:42:47.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:42:48.007+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:42:48.002+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:42:48.009+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:42:48.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.062 seconds
+[2025-10-11T17:43:18.237+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:43:18.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:43:18.241+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:43:18.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:43:18.272+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:43:18.267+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:43:18.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:43:18.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.077 seconds
+[2025-10-11T17:43:48.543+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:43:48.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:43:48.546+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:43:48.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:43:48.570+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:43:48.566+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:43:48.573+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:43:48.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.070 seconds
+[2025-10-11T17:44:18.837+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:44:18.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:44:18.841+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:44:18.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:44:18.865+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:44:18.860+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:44:18.866+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:44:18.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.048 seconds
+[2025-10-11T17:44:49.115+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:44:49.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:44:49.118+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:44:49.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:44:49.150+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:44:49.144+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:44:49.152+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:44:49.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.061 seconds
+[2025-10-11T17:45:19.356+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:45:19.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:45:19.359+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:45:19.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:45:19.392+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:45:19.385+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:45:19.394+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:45:19.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.060 seconds
+[2025-10-11T17:45:49.676+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:45:49.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:45:49.679+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:45:49.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:45:49.701+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:45:49.696+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:45:49.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:45:49.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.084 seconds
+[2025-10-11T17:46:19.950+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:46:19.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:46:19.953+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:46:19.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:46:19.980+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:46:19.975+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:46:19.982+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:46:20.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.097 seconds
+[2025-10-11T17:46:50.283+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:46:50.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:46:50.287+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:46:50.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:46:50.313+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:46:50.308+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:46:50.315+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:46:50.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.056 seconds
+[2025-10-11T17:47:20.611+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:47:20.612+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:47:20.614+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:47:20.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:47:20.646+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:47:20.640+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:47:20.649+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:47:20.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.061 seconds
+[2025-10-11T17:47:50.890+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:47:50.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:47:50.893+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:47:50.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:47:50.918+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:47:50.913+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-11T17:47:50.921+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:47:50.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.070 seconds
+[2025-10-11T17:50:25.401+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:50:25.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:50:25.409+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:50:25.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:50:25.497+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:50:25.483+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:50:25.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:50:25.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.169 seconds
+[2025-10-11T17:50:55.712+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:50:55.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:50:55.716+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:50:55.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:50:55.766+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:50:55.756+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:50:55.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:50:55.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.078 seconds
+[2025-10-11T17:51:25.969+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:51:25.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:51:25.972+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:51:25.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:51:26.032+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:51:26.019+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:51:26.037+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:51:26.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.094 seconds
+[2025-10-11T17:51:56.286+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:51:56.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:51:56.289+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:51:56.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:51:56.340+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:51:56.329+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:51:56.342+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:51:56.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.096 seconds
+[2025-10-11T17:52:26.578+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:52:26.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:52:26.582+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:52:26.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:52:26.635+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:52:26.625+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:52:26.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:52:26.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.101 seconds
+[2025-10-11T17:52:56.911+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:52:56.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:52:56.914+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:52:56.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:52:56.951+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:52:56.944+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:52:56.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:52:56.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.079 seconds
+[2025-10-11T17:53:27.195+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:53:27.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:53:27.198+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:53:27.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:53:27.255+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:53:27.245+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:53:27.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:53:27.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.090 seconds
+[2025-10-11T17:53:57.514+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:53:57.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T17:53:57.519+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:53:57.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:53:57.571+0000] {logging_mixin.py:188} INFO - [2025-10-11T17:53:57.562+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T17:53:57.574+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T17:53:57.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.097 seconds
+[2025-10-11T18:04:04.558+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:04:04.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:04:04.564+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:04:04.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:04:04.659+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:04:04.643+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:04:04.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:04:04.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.141 seconds
+[2025-10-11T18:04:34.856+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:04:34.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:04:34.859+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:04:34.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:04:34.925+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:04:34.912+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:04:34.929+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:04:34.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.122 seconds
+[2025-10-11T18:05:05.223+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:05:05.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:05:05.226+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:05:05.225+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:05:05.277+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:05:05.269+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:05:05.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:05:05.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.082 seconds
+[2025-10-11T18:05:35.510+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:05:35.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:05:35.515+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:05:35.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:05:35.593+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:05:35.582+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:05:35.596+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:05:35.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.131 seconds
+[2025-10-11T18:06:05.824+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:06:05.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:06:05.828+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:06:05.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:06:05.924+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:06:05.906+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:06:05.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:06:05.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.154 seconds
+[2025-10-11T18:06:36.147+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:06:36.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:06:36.150+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:06:36.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:06:36.203+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:06:36.193+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:06:36.205+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:06:36.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.087 seconds
+[2025-10-11T18:07:06.557+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:07:06.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:07:06.560+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:07:06.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:07:06.613+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:07:06.604+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:07:06.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:07:06.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.095 seconds
+[2025-10-11T18:07:36.836+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:07:36.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:07:36.838+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:07:36.838+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:07:36.885+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:07:36.877+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:07:36.887+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:07:36.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.089 seconds
+[2025-10-11T18:08:07.219+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:08:07.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:08:07.222+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:08:07.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:08:07.280+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:08:07.269+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:08:07.282+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:08:07.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.101 seconds
+[2025-10-11T18:08:37.504+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:08:37.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:08:37.507+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:08:37.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:08:37.574+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:08:37.562+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:08:37.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:08:37.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.098 seconds
+[2025-10-11T18:09:07.971+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:09:07.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:09:07.974+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:09:07.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:09:08.029+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:09:08.017+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:09:08.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:09:08.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.099 seconds
+[2025-10-11T18:09:38.229+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:09:38.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:09:38.232+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:09:38.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:09:38.296+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:09:38.285+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:09:38.298+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:09:38.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.092 seconds
+[2025-10-11T18:10:08.567+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:10:08.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:10:08.571+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:10:08.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:10:08.627+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:10:08.614+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:10:08.631+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:10:08.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.103 seconds
+[2025-10-11T18:10:38.837+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:10:38.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:10:38.840+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:10:38.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:10:38.884+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:10:38.876+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:10:38.887+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:10:38.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.072 seconds
+[2025-10-11T18:11:09.168+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:11:09.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:11:09.172+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:11:09.171+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:11:09.281+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:11:09.263+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:11:09.283+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:11:09.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.151 seconds
+[2025-10-11T18:11:39.441+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:11:39.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:11:39.445+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:11:39.445+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:11:39.537+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:11:39.525+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:11:39.541+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:11:39.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.149 seconds
+[2025-10-11T18:12:09.833+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:12:09.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:12:09.837+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:12:09.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:12:09.886+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:12:09.876+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:12:09.889+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:12:09.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.080 seconds
+[2025-10-11T18:12:40.144+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:12:40.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:12:40.147+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:12:40.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:12:40.196+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:12:40.188+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:12:40.198+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:12:40.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.074 seconds
+[2025-10-11T18:13:10.434+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:13:10.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-11T18:13:10.437+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:13:10.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:13:10.489+0000] {logging_mixin.py:188} INFO - [2025-10-11T18:13:10.476+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 13, in <module>
+    from spark_transform import run_all as run_spark_all
+  File "/opt/airflow/src/spark_transform.py", line 2, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-11T18:13:10.491+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-11T18:13:10.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.080 seconds

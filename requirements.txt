@@ -1,0 +1,6 @@
+requests==2.31.0
+pandas==2.1.1
+pyarrow==16.1.0
+apache-airflow==2.6.3          # example Airflow version compatible with py3.10
+pytest==7.4.0
+great_expectations==1.35.0 

@@ -1,0 +1,476 @@
+[2025-10-10T20:35:04.682+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:35:04.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:35:04.686+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:35:04.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:35:04.738+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:35:04.732+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:35:04.740+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:35:04.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.084 seconds
+[2025-10-10T20:35:34.962+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:35:34.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:35:34.966+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:35:34.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:35:35.003+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:35:34.996+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:35:35.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:35:35.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.092 seconds
+[2025-10-10T20:36:05.272+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:36:05.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:36:05.275+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:36:05.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:36:05.301+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:36:05.296+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:36:05.302+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:36:05.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.052 seconds
+[2025-10-10T20:36:35.576+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:36:35.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:36:35.579+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:36:35.579+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:36:35.602+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:36:35.598+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:36:35.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:36:35.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.051 seconds
+[2025-10-10T20:37:05.868+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:37:05.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:37:05.871+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:37:05.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:37:05.905+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:37:05.901+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:37:05.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:37:05.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.080 seconds
+[2025-10-10T20:37:36.200+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:37:36.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:37:36.203+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:37:36.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:37:36.234+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:37:36.228+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:37:36.235+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:37:36.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.057 seconds
+[2025-10-10T20:38:06.521+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:38:06.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:38:06.524+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:38:06.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:38:06.550+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:38:06.544+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:38:06.566+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:38:06.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.069 seconds
+[2025-10-10T20:38:36.824+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:38:36.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:38:36.828+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:38:36.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:38:36.863+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:38:36.855+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:38:36.865+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:38:36.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.069 seconds
+[2025-10-10T20:39:07.147+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:39:07.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:39:07.150+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:39:07.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:39:07.181+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:39:07.176+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:39:07.183+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:39:07.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.056 seconds
+[2025-10-10T20:39:37.460+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:39:37.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:39:37.463+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:39:37.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:39:37.494+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:39:37.489+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:39:37.496+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:39:37.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.057 seconds
+[2025-10-10T20:40:07.858+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:40:07.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:40:07.861+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:40:07.861+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:40:07.888+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:40:07.884+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:40:07.891+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:40:07.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.054 seconds
+[2025-10-10T20:40:38.166+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:40:38.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:40:38.169+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:40:38.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:40:38.190+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:40:38.185+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:40:38.192+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:40:38.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.049 seconds
+[2025-10-10T20:41:08.472+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:41:08.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:41:08.474+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:41:08.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:41:08.501+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:41:08.495+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:41:08.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:41:08.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.058 seconds
+[2025-10-10T20:41:38.788+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:41:38.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:41:38.791+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:41:38.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:41:38.821+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:41:38.816+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:41:38.822+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:41:38.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.060 seconds
+[2025-10-10T20:42:09.140+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:42:09.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:42:09.143+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:42:09.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:42:09.174+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:42:09.168+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:42:09.176+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:42:09.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.076 seconds
+[2025-10-10T20:42:39.451+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:42:39.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:42:39.455+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:42:39.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:42:39.499+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:42:39.490+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:42:39.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:42:39.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.083 seconds
+[2025-10-10T20:43:09.758+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:43:09.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:43:09.761+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:43:09.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:43:09.789+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:43:09.784+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:43:09.790+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:43:09.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.057 seconds
+[2025-10-10T20:43:40.094+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:43:40.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:43:40.097+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:43:40.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:43:40.123+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:43:40.119+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:43:40.125+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:43:40.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.052 seconds
+[2025-10-10T20:44:10.404+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:44:10.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:44:10.407+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:44:10.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:44:10.435+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:44:10.429+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:44:10.437+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:44:10.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.073 seconds
+[2025-10-10T20:44:40.722+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:44:40.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:44:40.725+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:44:40.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:44:40.750+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:44:40.746+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:44:40.752+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:44:40.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.068 seconds
+[2025-10-10T20:45:11.095+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:45:11.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:45:11.098+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:45:11.098+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:45:11.130+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:45:11.123+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:45:11.132+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:45:11.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.064 seconds
+[2025-10-10T20:45:41.381+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:45:41.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:45:41.384+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:45:41.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:45:41.423+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:45:41.414+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:45:41.426+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:45:41.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.080 seconds
+[2025-10-10T20:46:11.738+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:46:11.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:46:11.743+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:46:11.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:46:11.788+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:46:11.778+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:46:11.792+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:46:11.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.079 seconds
+[2025-10-10T20:46:42.058+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:46:42.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:46:42.061+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:46:42.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:46:42.093+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:46:42.086+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:46:42.095+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:46:42.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.060 seconds
+[2025-10-10T20:47:12.430+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:47:12.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:47:12.433+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:47:12.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:47:12.466+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:47:12.460+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:47:12.467+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:47:12.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.080 seconds
+[2025-10-10T20:47:42.714+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:47:42.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:47:42.717+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:47:42.717+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:47:42.745+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:47:42.739+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:47:42.747+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:47:42.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.072 seconds
+[2025-10-10T20:48:13.080+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:48:13.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:48:13.084+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:48:13.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:48:13.113+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:48:13.107+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:48:13.115+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:48:13.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.054 seconds
+[2025-10-10T20:48:43.423+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:48:43.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:48:43.428+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:48:43.427+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:48:43.464+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:48:43.457+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:48:43.466+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:48:43.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.085 seconds
+[2025-10-10T20:49:13.715+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:49:13.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:49:13.719+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:49:13.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:49:13.755+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:49:13.748+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:49:13.757+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:49:13.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.082 seconds
+[2025-10-10T20:49:44.088+0000] {processor.py:161} INFO - Started process (PID=316) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:49:44.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:49:44.091+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:49:44.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:49:44.121+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:49:44.116+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:49:44.124+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:49:44.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.075 seconds
+[2025-10-10T20:50:14.419+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:50:14.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:50:14.422+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:50:14.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:50:14.451+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:50:14.446+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:50:14.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:50:14.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.074 seconds
+[2025-10-10T20:50:44.749+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:50:44.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:50:44.752+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:50:44.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:50:44.779+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:50:44.775+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:50:44.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:50:44.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.057 seconds
+[2025-10-10T20:51:15.045+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:51:15.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:51:15.048+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:51:15.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:51:15.082+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:51:15.075+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:51:15.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:51:15.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.064 seconds
+[2025-10-10T20:51:45.317+0000] {processor.py:161} INFO - Started process (PID=336) to work on /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:51:45.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2025-10-10T20:51:45.320+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:51:45.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:51:45.352+0000] {logging_mixin.py:188} INFO - [2025-10-10T20:51:45.346+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 12, in <module>
+    from fetcher import run_fetch_and_persist
+ModuleNotFoundError: No module named 'fetcher'
+[2025-10-10T20:51:45.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2025-10-10T20:51:45.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.059 seconds

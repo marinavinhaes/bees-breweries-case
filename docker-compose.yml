@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  airflow:
+    image: apache/airflow:2.9.3
+    container_name: airflow
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
+    ports:
+      - "8080:8080"
+    command: webserver
