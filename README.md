@@ -46,6 +46,29 @@ This repository implements a **data engineering pipeline** that consumes the [Op
 
 From the project root:
 
-```bash
-cd docker
-docker-compose up --build
+1️⃣ Start all services:
+
+docker-compose up -d
+
+
+2️⃣ Initialize Airflow database:
+
+docker exec -it bees-breweries-case-airflow-webserver airflow db init
+
+
+3️⃣ Access the Airflow UI:
+
+🌐 Open: http://localhost:8080
+
+Default login: airflow / airflow
+
+4️⃣ Trigger the DAG:
+Once the webserver is up, enable & trigger openbrewery_medallion.
+
+Running Tests
+
+To run unit tests inside Docker:
+
+docker-compose run --rm pytest
+
+This executes all tests inside src/tests.

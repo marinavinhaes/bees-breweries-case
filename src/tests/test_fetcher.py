@@ -3,6 +3,10 @@ import json
 import os
 import tempfile
 from unittest.mock import patch, MagicMock
+
+import sys
+sys.path.append("/opt/airflow/dags")
+
 from fetcher import write_bronze, fetch_all_breweries
 
 def test_write_bronze_creates_file():

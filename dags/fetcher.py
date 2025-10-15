@@ -1,4 +1,4 @@
-# src/fetcher.py
+# fetcher.py
 import requests
 import json
 import os

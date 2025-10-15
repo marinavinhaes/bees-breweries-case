@@ -1,14 +1,66 @@
-version: '3.9'
+version: '3.8'
 
 services:
-  airflow:
-    image: apache/airflow:2.9.3
-    container_name: airflow
+  postgres:
+    image: postgres:15
     environment:
-      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
     volumes:
-      - ./dags:/opt/airflow/dags
-      - ./src:/opt/airflow/src
+      - postgres-db:/var/lib/postgresql/data
+
+  airflow-webserver:
+    image: apache/airflow:2.9.3
+    container_name: bees-breweries-case-airflow-webserver
+    restart: always
     ports:
       - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./src:/opt/airflow/src
+      - ./plugins:/opt/airflow/plugins
+    environment:
+      - AIRFLOW__WEBSERVER__BASE_URL=http://localhost:8080
+      - PYTHONPATH=/opt/airflow/src
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=DkUt33jnTO-GsXingPvVncuyWE-Mrjy1rUb2js-cp5E=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
     command: webserver
+    depends_on:
+      - postgres
+      - airflow-scheduler
+
+  airflow-scheduler:
+    image: apache/airflow:2.9.3
+    container_name: bees-breweries-case-airflow-scheduler
+    restart: always
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./src:/opt/airflow/src
+      - ./plugins:/opt/airflow/plugins
+    environment:
+      - PYTHONPATH=/opt/airflow/src
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=DkUt33jnTO-GsXingPvVncuyWE-Mrjy1rUb2js-cp5E=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    command: scheduler
+    depends_on:
+      - postgres
+
+  pytest:
+    image: apache/airflow:2.9.3
+    command: >
+      bash -c "pip install pytest && pytest -v /opt/airflow/src/tests"
+    volumes:
+      - ./src:/opt/airflow/src
+      - ./dags:/opt/airflow/dags   # <-- mount dags too
+    environment:
+      - PYTHONPATH=/opt/airflow/src:/opt/airflow/dags
+
+volumes:
+  postgres-db:

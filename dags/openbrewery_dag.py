@@ -3,14 +3,19 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 import os
+import sys
 import logging
+
+sys.path.append("/opt/airflow/src")
+from fetcher import run_fetch_and_persist
+from transformer import run_transform
 
 logger = logging.getLogger(__name__)
 
 BRONZE_DIR = os.getenv("BRONZE_DIR", "/data/lake/bronze")
 SILVER_DIR = os.getenv("SILVER_DIR", "/data/lake/silver")
 GOLD_DIR = os.getenv("GOLD_DIR", "/data/lake/gold")
-ALERT_EMAIL = os.getenv("ALERT_EMAIL", "you@example.com")
+ALERT_EMAIL = os.getenv("ALERT_EMAIL", "marinalvinhaes@gmail.com")
 
 default_args = {
     "owner": "airflow",
@@ -38,11 +43,9 @@ with DAG(
 
     def task_fetch(**kwargs):
         # import inside callable so DAG file parses without requests/pandas
-        from src.fetcher import fetch_and_persist
-        return fetch_and_persist(bronze_dir=BRONZE_DIR)
+        return run_fetch_and_persist(bronze_dir=BRONZE_DIR)
 
     def task_transform(**kwargs):
-        from src.transformer import run_transform
         return run_transform(bronze_dir=BRONZE_DIR, silver_dir=SILVER_DIR, gold_dir=GOLD_DIR)
 
     fetch_task = PythonOperator(

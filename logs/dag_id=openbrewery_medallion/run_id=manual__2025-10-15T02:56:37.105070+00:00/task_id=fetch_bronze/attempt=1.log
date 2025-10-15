@@ -1,0 +1,309 @@
+[2025-10-15T03:10:44.745+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-15T03:10:44.842+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: openbrewery_medallion.fetch_bronze manual__2025-10-15T02:56:37.105070+00:00 [queued]>
+[2025-10-15T03:10:44.866+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: openbrewery_medallion.fetch_bronze manual__2025-10-15T02:56:37.105070+00:00 [queued]>
+[2025-10-15T03:10:44.868+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-10-15T03:10:44.895+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_bronze> on 2025-10-15 02:56:37.105070+00:00
+[2025-10-15T03:10:44.923+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=216) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-15T03:10:44.925+0000] {standard_task_runner.py:64} INFO - Started process 218 to run task
+[2025-10-15T03:10:44.919+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'openbrewery_medallion', 'fetch_bronze', 'manual__2025-10-15T02:56:37.105070+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/openbrewery_dag.py', '--cfg-path', '/tmp/tmpr1m37198']
+[2025-10-15T03:10:44.929+0000] {standard_task_runner.py:91} INFO - Job 8: Subtask fetch_bronze
+[2025-10-15T03:10:45.099+0000] {task_command.py:426} INFO - Running <TaskInstance: openbrewery_medallion.fetch_bronze manual__2025-10-15T02:56:37.105070+00:00 [running]> on host 57afdac7c6b7
+[2025-10-15T03:10:45.687+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='marinalvinhaes@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='openbrewery_medallion' AIRFLOW_CTX_TASK_ID='fetch_bronze' AIRFLOW_CTX_EXECUTION_DATE='2025-10-15T02:56:37.105070+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-15T02:56:37.105070+00:00'
+[2025-10-15T03:10:45.691+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-15T03:10:46.141+0000] {fetcher.py:37} INFO - Fetched page 1, items=50
+[2025-10-15T03:10:46.449+0000] {fetcher.py:37} INFO - Fetched page 2, items=50
+[2025-10-15T03:10:46.742+0000] {fetcher.py:37} INFO - Fetched page 3, items=50
+[2025-10-15T03:10:47.063+0000] {fetcher.py:37} INFO - Fetched page 4, items=50
+[2025-10-15T03:10:47.882+0000] {fetcher.py:37} INFO - Fetched page 5, items=50
+[2025-10-15T03:10:48.600+0000] {fetcher.py:37} INFO - Fetched page 6, items=50
+[2025-10-15T03:10:49.275+0000] {fetcher.py:37} INFO - Fetched page 7, items=50
+[2025-10-15T03:10:50.033+0000] {fetcher.py:37} INFO - Fetched page 8, items=50
+[2025-10-15T03:10:50.750+0000] {fetcher.py:37} INFO - Fetched page 9, items=50
+[2025-10-15T03:10:51.419+0000] {fetcher.py:37} INFO - Fetched page 10, items=50
+[2025-10-15T03:10:52.112+0000] {fetcher.py:37} INFO - Fetched page 11, items=50
+[2025-10-15T03:10:52.782+0000] {fetcher.py:37} INFO - Fetched page 12, items=50
+[2025-10-15T03:10:53.501+0000] {fetcher.py:37} INFO - Fetched page 13, items=50
+[2025-10-15T03:10:54.210+0000] {fetcher.py:37} INFO - Fetched page 14, items=50
+[2025-10-15T03:10:54.897+0000] {fetcher.py:37} INFO - Fetched page 15, items=50
+[2025-10-15T03:10:55.563+0000] {fetcher.py:37} INFO - Fetched page 16, items=50
+[2025-10-15T03:10:56.382+0000] {fetcher.py:37} INFO - Fetched page 17, items=50
+[2025-10-15T03:10:57.099+0000] {fetcher.py:37} INFO - Fetched page 18, items=50
+[2025-10-15T03:10:57.815+0000] {fetcher.py:37} INFO - Fetched page 19, items=50
+[2025-10-15T03:10:58.532+0000] {fetcher.py:37} INFO - Fetched page 20, items=50
+[2025-10-15T03:10:59.249+0000] {fetcher.py:37} INFO - Fetched page 21, items=50
+[2025-10-15T03:10:59.966+0000] {fetcher.py:37} INFO - Fetched page 22, items=50
+[2025-10-15T03:11:00.676+0000] {fetcher.py:37} INFO - Fetched page 23, items=50
+[2025-10-15T03:11:01.368+0000] {fetcher.py:37} INFO - Fetched page 24, items=50
+[2025-10-15T03:11:02.043+0000] {fetcher.py:37} INFO - Fetched page 25, items=50
+[2025-10-15T03:11:02.833+0000] {fetcher.py:37} INFO - Fetched page 26, items=50
+[2025-10-15T03:11:03.550+0000] {fetcher.py:37} INFO - Fetched page 27, items=50
+[2025-10-15T03:11:04.163+0000] {fetcher.py:37} INFO - Fetched page 28, items=50
+[2025-10-15T03:11:04.881+0000] {fetcher.py:37} INFO - Fetched page 29, items=50
+[2025-10-15T03:11:05.599+0000] {fetcher.py:37} INFO - Fetched page 30, items=50
+[2025-10-15T03:11:06.308+0000] {fetcher.py:37} INFO - Fetched page 31, items=50
+[2025-10-15T03:11:07.031+0000] {fetcher.py:37} INFO - Fetched page 32, items=50
+[2025-10-15T03:11:07.691+0000] {fetcher.py:37} INFO - Fetched page 33, items=50
+[2025-10-15T03:11:08.465+0000] {fetcher.py:37} INFO - Fetched page 34, items=50
+[2025-10-15T03:11:09.182+0000] {fetcher.py:37} INFO - Fetched page 35, items=50
+[2025-10-15T03:11:09.898+0000] {fetcher.py:37} INFO - Fetched page 36, items=50
+[2025-10-15T03:11:10.596+0000] {fetcher.py:37} INFO - Fetched page 37, items=50
+[2025-10-15T03:11:11.293+0000] {fetcher.py:37} INFO - Fetched page 38, items=50
+[2025-10-15T03:11:12.057+0000] {fetcher.py:37} INFO - Fetched page 39, items=50
+[2025-10-15T03:11:12.869+0000] {fetcher.py:37} INFO - Fetched page 40, items=50
+[2025-10-15T03:11:13.586+0000] {fetcher.py:37} INFO - Fetched page 41, items=50
+[2025-10-15T03:11:14.302+0000] {fetcher.py:37} INFO - Fetched page 42, items=50
+[2025-10-15T03:11:15.020+0000] {fetcher.py:37} INFO - Fetched page 43, items=50
+[2025-10-15T03:11:15.838+0000] {fetcher.py:37} INFO - Fetched page 44, items=50
+[2025-10-15T03:11:16.657+0000] {fetcher.py:37} INFO - Fetched page 45, items=50
+[2025-10-15T03:11:17.374+0000] {fetcher.py:37} INFO - Fetched page 46, items=50
+[2025-10-15T03:11:18.091+0000] {fetcher.py:37} INFO - Fetched page 47, items=50
+[2025-10-15T03:11:18.808+0000] {fetcher.py:37} INFO - Fetched page 48, items=50
+[2025-10-15T03:11:19.529+0000] {fetcher.py:37} INFO - Fetched page 49, items=50
+[2025-10-15T03:11:20.241+0000] {fetcher.py:37} INFO - Fetched page 50, items=50
+[2025-10-15T03:11:20.958+0000] {fetcher.py:37} INFO - Fetched page 51, items=50
+[2025-10-15T03:11:21.693+0000] {fetcher.py:37} INFO - Fetched page 52, items=50
+[2025-10-15T03:11:22.495+0000] {fetcher.py:37} INFO - Fetched page 53, items=50
+[2025-10-15T03:11:23.200+0000] {fetcher.py:37} INFO - Fetched page 54, items=50
+[2025-10-15T03:11:23.943+0000] {fetcher.py:37} INFO - Fetched page 55, items=50
+[2025-10-15T03:11:24.643+0000] {fetcher.py:37} INFO - Fetched page 56, items=50
+[2025-10-15T03:11:25.362+0000] {fetcher.py:37} INFO - Fetched page 57, items=50
+[2025-10-15T03:11:26.099+0000] {fetcher.py:37} INFO - Fetched page 58, items=50
+[2025-10-15T03:11:26.832+0000] {fetcher.py:37} INFO - Fetched page 59, items=50
+[2025-10-15T03:11:27.602+0000] {fetcher.py:37} INFO - Fetched page 60, items=50
+[2025-10-15T03:11:28.332+0000] {fetcher.py:37} INFO - Fetched page 61, items=50
+[2025-10-15T03:11:29.054+0000] {fetcher.py:37} INFO - Fetched page 62, items=50
+[2025-10-15T03:11:29.794+0000] {fetcher.py:37} INFO - Fetched page 63, items=50
+[2025-10-15T03:11:30.595+0000] {fetcher.py:37} INFO - Fetched page 64, items=50
+[2025-10-15T03:11:31.326+0000] {fetcher.py:37} INFO - Fetched page 65, items=50
+[2025-10-15T03:11:32.104+0000] {fetcher.py:37} INFO - Fetched page 66, items=50
+[2025-10-15T03:11:32.841+0000] {fetcher.py:37} INFO - Fetched page 67, items=50
+[2025-10-15T03:11:33.562+0000] {fetcher.py:37} INFO - Fetched page 68, items=50
+[2025-10-15T03:11:34.257+0000] {fetcher.py:37} INFO - Fetched page 69, items=50
+[2025-10-15T03:11:34.961+0000] {fetcher.py:37} INFO - Fetched page 70, items=50
+[2025-10-15T03:11:35.601+0000] {fetcher.py:37} INFO - Fetched page 71, items=50
+[2025-10-15T03:11:36.383+0000] {fetcher.py:37} INFO - Fetched page 72, items=50
+[2025-10-15T03:11:37.253+0000] {fetcher.py:37} INFO - Fetched page 73, items=50
+[2025-10-15T03:11:37.981+0000] {fetcher.py:37} INFO - Fetched page 74, items=50
+[2025-10-15T03:11:38.686+0000] {fetcher.py:37} INFO - Fetched page 75, items=50
+[2025-10-15T03:11:39.349+0000] {fetcher.py:37} INFO - Fetched page 76, items=50
+[2025-10-15T03:11:39.697+0000] {fetcher.py:37} INFO - Fetched page 77, items=50
+[2025-10-15T03:11:40.405+0000] {fetcher.py:37} INFO - Fetched page 78, items=50
+[2025-10-15T03:11:40.846+0000] {fetcher.py:37} INFO - Fetched page 79, items=50
+[2025-10-15T03:11:41.555+0000] {fetcher.py:37} INFO - Fetched page 80, items=50
+[2025-10-15T03:11:42.277+0000] {fetcher.py:37} INFO - Fetched page 81, items=50
+[2025-10-15T03:11:42.939+0000] {fetcher.py:37} INFO - Fetched page 82, items=50
+[2025-10-15T03:11:43.976+0000] {fetcher.py:37} INFO - Fetched page 83, items=50
+[2025-10-15T03:16:16.145+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-15T03:16:16.421+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:2406)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openbrewerydb.org', port=443): Max retries exceeded with url: /v1/breweries?page=84&per_page=50 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2406)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/openbrewery_dag.py", line 46, in task_fetch
+    return run_fetch_and_persist(bronze_dir=BRONZE_DIR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/fetcher.py", line 60, in run_fetch_and_persist
+    data = fetch_all_breweries()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/fetcher.py", line 23, in fetch_all_breweries
+    resp = requests.get(API_BASE, params=params, timeout=30)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.openbrewerydb.org', port=443): Max retries exceeded with url: /v1/breweries?page=84&per_page=50 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2406)')))
+[2025-10-15T03:21:04.186+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=openbrewery_medallion, task_id=fetch_bronze, run_id=manual__2025-10-15T02:56:37.105070+00:00, execution_date=20251015T025637, start_date=20251015T031044, end_date=20251015T032104
+[2025-10-15T03:21:04.407+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 8 for task fetch_bronze (HTTPSConnectionPool(host='api.openbrewerydb.org', port=443): Max retries exceeded with url: /v1/breweries?page=84&per_page=50 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2406)'))); 218)
+[2025-10-15T03:21:04.267+0000] {job.py:218} ERROR - Job heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "postgres" (172.31.0.2), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/jobs/job.py", line 213, in heartbeat
+    heartbeat_callback(session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/jobs/local_task_job_runner.py", line 261, in heartbeat_callback
+    self.task_instance.refresh_from_db()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1821, in refresh_from_db
+    _refresh_from_db(task_instance=self, session=session, lock_for_update=lock_for_update)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 510, in _refresh_from_db
+    ti = TaskInstance.get_task_instance(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1807, in get_task_instance
+    return query.one_or_none()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/query.py", line 2850, in one_or_none
+    return self._iter().one_or_none()
+           ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "postgres" (172.31.0.2), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-10-15T03:21:04.498+0000] {job.py:226} ERROR - Job heartbeat failed with error. Scheduler is in unhealthy state
+[2025-10-15T03:21:04.504+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-10-15T03:21:04.658+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-15T03:21:04.680+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
