@@ -1,0 +1,16 @@
+[
+    {
+      "id": "1",
+      "name": "Sample Brew",
+      "brewery_type": "micro",
+      "state": "California",
+      "country": "United States"
+    },
+    {
+      "id": "2",
+      "name": "Hopsters",
+      "brewery_type": "brewpub",
+      "state": "Texas",
+      "country": "United States"
+    }
+  ]

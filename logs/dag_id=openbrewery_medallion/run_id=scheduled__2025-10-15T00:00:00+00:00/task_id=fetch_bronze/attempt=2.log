@@ -1,0 +1,148 @@
+[2025-10-16T00:49:01.782+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-16T00:49:01.910+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: openbrewery_medallion.fetch_bronze scheduled__2025-10-15T00:00:00+00:00 [queued]>
+[2025-10-16T00:49:01.932+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: openbrewery_medallion.fetch_bronze scheduled__2025-10-15T00:00:00+00:00 [queued]>
+[2025-10-16T00:49:01.934+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2025-10-16T00:49:01.967+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_bronze> on 2025-10-15 00:00:00+00:00
+[2025-10-16T00:49:01.991+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=2792) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-16T00:49:02.006+0000] {standard_task_runner.py:64} INFO - Started process 2794 to run task
+[2025-10-16T00:49:01.999+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'openbrewery_medallion', 'fetch_bronze', 'scheduled__2025-10-15T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/openbrewery_dag.py', '--cfg-path', '/tmp/tmpeth8vv56']
+[2025-10-16T00:49:02.007+0000] {standard_task_runner.py:91} INFO - Job 12: Subtask fetch_bronze
+[2025-10-16T00:49:02.173+0000] {task_command.py:426} INFO - Running <TaskInstance: openbrewery_medallion.fetch_bronze scheduled__2025-10-15T00:00:00+00:00 [running]> on host 0b16638971ee
+[2025-10-16T00:49:02.911+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='marinalvinhaes@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='openbrewery_medallion' AIRFLOW_CTX_TASK_ID='fetch_bronze' AIRFLOW_CTX_EXECUTION_DATE='2025-10-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-15T00:00:00+00:00'
+[2025-10-16T00:49:02.915+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-16T00:49:03.202+0000] {fetcher.py:37} INFO - Fetched page 1, items=50
+[2025-10-16T00:49:03.270+0000] {fetcher.py:37} INFO - Fetched page 2, items=50
+[2025-10-16T00:49:03.340+0000] {fetcher.py:37} INFO - Fetched page 3, items=50
+[2025-10-16T00:49:03.416+0000] {fetcher.py:37} INFO - Fetched page 4, items=50
+[2025-10-16T00:49:03.487+0000] {fetcher.py:37} INFO - Fetched page 5, items=50
+[2025-10-16T00:49:03.589+0000] {fetcher.py:37} INFO - Fetched page 6, items=50
+[2025-10-16T00:49:03.687+0000] {fetcher.py:37} INFO - Fetched page 7, items=50
+[2025-10-16T00:49:03.761+0000] {fetcher.py:37} INFO - Fetched page 8, items=50
+[2025-10-16T00:49:03.847+0000] {fetcher.py:37} INFO - Fetched page 9, items=50
+[2025-10-16T00:49:03.925+0000] {fetcher.py:37} INFO - Fetched page 10, items=50
+[2025-10-16T00:49:04.015+0000] {fetcher.py:37} INFO - Fetched page 11, items=50
+[2025-10-16T00:49:04.092+0000] {fetcher.py:37} INFO - Fetched page 12, items=50
+[2025-10-16T00:49:04.182+0000] {fetcher.py:37} INFO - Fetched page 13, items=50
+[2025-10-16T00:49:04.260+0000] {fetcher.py:37} INFO - Fetched page 14, items=50
+[2025-10-16T00:49:04.340+0000] {fetcher.py:37} INFO - Fetched page 15, items=50
+[2025-10-16T00:49:04.417+0000] {fetcher.py:37} INFO - Fetched page 16, items=50
+[2025-10-16T00:49:04.499+0000] {fetcher.py:37} INFO - Fetched page 17, items=50
+[2025-10-16T00:49:04.577+0000] {fetcher.py:37} INFO - Fetched page 18, items=50
+[2025-10-16T00:49:04.654+0000] {fetcher.py:37} INFO - Fetched page 19, items=50
+[2025-10-16T00:49:04.753+0000] {fetcher.py:37} INFO - Fetched page 20, items=50
+[2025-10-16T00:49:04.835+0000] {fetcher.py:37} INFO - Fetched page 21, items=50
+[2025-10-16T00:49:04.939+0000] {fetcher.py:37} INFO - Fetched page 22, items=50
+[2025-10-16T00:49:05.018+0000] {fetcher.py:37} INFO - Fetched page 23, items=50
+[2025-10-16T00:49:05.086+0000] {fetcher.py:37} INFO - Fetched page 24, items=50
+[2025-10-16T00:49:05.196+0000] {fetcher.py:37} INFO - Fetched page 25, items=50
+[2025-10-16T00:49:05.281+0000] {fetcher.py:37} INFO - Fetched page 26, items=50
+[2025-10-16T00:49:05.359+0000] {fetcher.py:37} INFO - Fetched page 27, items=50
+[2025-10-16T00:49:05.432+0000] {fetcher.py:37} INFO - Fetched page 28, items=50
+[2025-10-16T00:49:05.518+0000] {fetcher.py:37} INFO - Fetched page 29, items=50
+[2025-10-16T00:49:05.596+0000] {fetcher.py:37} INFO - Fetched page 30, items=50
+[2025-10-16T00:49:05.772+0000] {fetcher.py:37} INFO - Fetched page 31, items=50
+[2025-10-16T00:49:05.865+0000] {fetcher.py:37} INFO - Fetched page 32, items=50
+[2025-10-16T00:49:05.967+0000] {fetcher.py:37} INFO - Fetched page 33, items=50
+[2025-10-16T00:49:06.049+0000] {fetcher.py:37} INFO - Fetched page 34, items=50
+[2025-10-16T00:49:06.178+0000] {fetcher.py:37} INFO - Fetched page 35, items=50
+[2025-10-16T00:49:06.317+0000] {fetcher.py:37} INFO - Fetched page 36, items=50
+[2025-10-16T00:49:06.418+0000] {fetcher.py:37} INFO - Fetched page 37, items=50
+[2025-10-16T00:49:06.501+0000] {fetcher.py:37} INFO - Fetched page 38, items=50
+[2025-10-16T00:49:06.585+0000] {fetcher.py:37} INFO - Fetched page 39, items=50
+[2025-10-16T00:49:06.657+0000] {fetcher.py:37} INFO - Fetched page 40, items=50
+[2025-10-16T00:49:06.744+0000] {fetcher.py:37} INFO - Fetched page 41, items=50
+[2025-10-16T00:49:06.847+0000] {fetcher.py:37} INFO - Fetched page 42, items=50
+[2025-10-16T00:49:06.942+0000] {fetcher.py:37} INFO - Fetched page 43, items=50
+[2025-10-16T00:49:07.039+0000] {fetcher.py:37} INFO - Fetched page 44, items=50
+[2025-10-16T00:49:07.189+0000] {fetcher.py:37} INFO - Fetched page 45, items=50
+[2025-10-16T00:49:07.265+0000] {fetcher.py:37} INFO - Fetched page 46, items=50
+[2025-10-16T00:49:07.338+0000] {fetcher.py:37} INFO - Fetched page 47, items=50
+[2025-10-16T00:49:07.406+0000] {fetcher.py:37} INFO - Fetched page 48, items=50
+[2025-10-16T00:49:07.489+0000] {fetcher.py:37} INFO - Fetched page 49, items=50
+[2025-10-16T00:49:07.568+0000] {fetcher.py:37} INFO - Fetched page 50, items=50
+[2025-10-16T00:49:07.662+0000] {fetcher.py:37} INFO - Fetched page 51, items=50
+[2025-10-16T00:49:07.736+0000] {fetcher.py:37} INFO - Fetched page 52, items=50
+[2025-10-16T00:49:07.810+0000] {fetcher.py:37} INFO - Fetched page 53, items=50
+[2025-10-16T00:49:07.893+0000] {fetcher.py:37} INFO - Fetched page 54, items=50
+[2025-10-16T00:49:07.977+0000] {fetcher.py:37} INFO - Fetched page 55, items=50
+[2025-10-16T00:49:08.071+0000] {fetcher.py:37} INFO - Fetched page 56, items=50
+[2025-10-16T00:49:08.161+0000] {fetcher.py:37} INFO - Fetched page 57, items=50
+[2025-10-16T00:49:08.249+0000] {fetcher.py:37} INFO - Fetched page 58, items=50
+[2025-10-16T00:49:08.329+0000] {fetcher.py:37} INFO - Fetched page 59, items=50
+[2025-10-16T00:49:08.406+0000] {fetcher.py:37} INFO - Fetched page 60, items=50
+[2025-10-16T00:49:08.511+0000] {fetcher.py:37} INFO - Fetched page 61, items=50
+[2025-10-16T00:49:09.231+0000] {fetcher.py:37} INFO - Fetched page 62, items=50
+[2025-10-16T00:49:09.350+0000] {fetcher.py:37} INFO - Fetched page 63, items=50
+[2025-10-16T00:49:09.447+0000] {fetcher.py:37} INFO - Fetched page 64, items=50
+[2025-10-16T00:49:09.533+0000] {fetcher.py:37} INFO - Fetched page 65, items=50
+[2025-10-16T00:49:09.606+0000] {fetcher.py:37} INFO - Fetched page 66, items=50
+[2025-10-16T00:49:09.675+0000] {fetcher.py:37} INFO - Fetched page 67, items=50
+[2025-10-16T00:49:09.757+0000] {fetcher.py:37} INFO - Fetched page 68, items=50
+[2025-10-16T00:49:09.838+0000] {fetcher.py:37} INFO - Fetched page 69, items=50
+[2025-10-16T00:49:09.927+0000] {fetcher.py:37} INFO - Fetched page 70, items=50
+[2025-10-16T00:49:10.024+0000] {fetcher.py:37} INFO - Fetched page 71, items=50
+[2025-10-16T00:49:10.103+0000] {fetcher.py:37} INFO - Fetched page 72, items=50
+[2025-10-16T00:49:10.171+0000] {fetcher.py:37} INFO - Fetched page 73, items=50
+[2025-10-16T00:49:10.241+0000] {fetcher.py:37} INFO - Fetched page 74, items=50
+[2025-10-16T00:49:10.319+0000] {fetcher.py:37} INFO - Fetched page 75, items=50
+[2025-10-16T00:49:10.401+0000] {fetcher.py:37} INFO - Fetched page 76, items=50
+[2025-10-16T00:49:10.487+0000] {fetcher.py:37} INFO - Fetched page 77, items=50
+[2025-10-16T00:49:10.575+0000] {fetcher.py:37} INFO - Fetched page 78, items=50
+[2025-10-16T00:49:10.656+0000] {fetcher.py:37} INFO - Fetched page 79, items=50
+[2025-10-16T00:49:10.721+0000] {fetcher.py:37} INFO - Fetched page 80, items=50
+[2025-10-16T00:49:10.813+0000] {fetcher.py:37} INFO - Fetched page 81, items=50
+[2025-10-16T00:49:10.921+0000] {fetcher.py:37} INFO - Fetched page 82, items=50
+[2025-10-16T00:49:11.005+0000] {fetcher.py:37} INFO - Fetched page 83, items=50
+[2025-10-16T00:49:11.073+0000] {fetcher.py:37} INFO - Fetched page 84, items=50
+[2025-10-16T00:49:11.149+0000] {fetcher.py:37} INFO - Fetched page 85, items=50
+[2025-10-16T00:49:11.227+0000] {fetcher.py:37} INFO - Fetched page 86, items=50
+[2025-10-16T00:49:11.305+0000] {fetcher.py:37} INFO - Fetched page 87, items=50
+[2025-10-16T00:49:11.392+0000] {fetcher.py:37} INFO - Fetched page 88, items=50
+[2025-10-16T00:49:11.472+0000] {fetcher.py:37} INFO - Fetched page 89, items=50
+[2025-10-16T00:49:11.546+0000] {fetcher.py:37} INFO - Fetched page 90, items=50
+[2025-10-16T00:49:11.626+0000] {fetcher.py:37} INFO - Fetched page 91, items=50
+[2025-10-16T00:49:11.699+0000] {fetcher.py:37} INFO - Fetched page 92, items=50
+[2025-10-16T00:49:11.771+0000] {fetcher.py:37} INFO - Fetched page 93, items=50
+[2025-10-16T00:49:11.859+0000] {fetcher.py:37} INFO - Fetched page 94, items=50
+[2025-10-16T00:49:11.946+0000] {fetcher.py:37} INFO - Fetched page 95, items=50
+[2025-10-16T00:49:12.029+0000] {fetcher.py:37} INFO - Fetched page 96, items=50
+[2025-10-16T00:49:12.121+0000] {fetcher.py:37} INFO - Fetched page 97, items=50
+[2025-10-16T00:49:12.225+0000] {fetcher.py:37} INFO - Fetched page 98, items=50
+[2025-10-16T00:49:12.307+0000] {fetcher.py:37} INFO - Fetched page 99, items=50
+[2025-10-16T00:49:12.389+0000] {fetcher.py:37} INFO - Fetched page 100, items=50
+[2025-10-16T00:49:12.390+0000] {fetcher.py:42} WARNING - Reached max_pages; stopping pagination
+[2025-10-16T00:49:12.394+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-16T00:49:12.395+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/openbrewery_dag.py", line 46, in task_fetch
+    return run_fetch_and_persist(bronze_dir=BRONZE_DIR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/fetcher.py", line 61, in run_fetch_and_persist
+    return write_bronze(data, bronze_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/fetcher.py", line 51, in write_bronze
+    os.makedirs(bronze_dir, exist_ok=True)
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [Errno 13] Permission denied: '/data'
+[2025-10-16T00:49:12.437+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=openbrewery_medallion, task_id=fetch_bronze, run_id=scheduled__2025-10-15T00:00:00+00:00, execution_date=20251015T000000, start_date=20251016T004901, end_date=20251016T004912
+[2025-10-16T00:49:12.466+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 12 for task fetch_bronze ([Errno 13] Permission denied: '/data'; 2794)
+[2025-10-16T00:49:12.507+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-10-16T00:49:12.561+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-16T00:49:12.570+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

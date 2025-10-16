@@ -1,0 +1,284 @@
+[2025-10-16T00:01:10.822+0000] {processor.py:161} INFO - Started process (PID=2678) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:01:10.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:01:10.877+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:01:10.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:01:42.323+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:01:41.865+0000] {timeout.py:68} ERROR - Process timed out, PID: 2678
+[2025-10-16T00:02:23.502+0000] {processor.py:161} INFO - Started process (PID=2684) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:02:23.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:02:23.508+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:02:23.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:02:57.694+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:02:57.601+0000] {timeout.py:68} ERROR - Process timed out, PID: 2684
+[2025-10-16T00:03:38.002+0000] {processor.py:161} INFO - Started process (PID=2690) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:03:38.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:03:38.012+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:03:38.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:04:13.305+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:04:09.526+0000] {timeout.py:68} ERROR - Process timed out, PID: 2690
+[2025-10-16T00:04:52.678+0000] {processor.py:161} INFO - Started process (PID=2696) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:04:52.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:04:52.690+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:04:52.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:05:22.823+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:05:22.777+0000] {timeout.py:68} ERROR - Process timed out, PID: 2696
+[2025-10-16T00:06:11.873+0000] {processor.py:161} INFO - Started process (PID=2702) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:06:11.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:06:11.893+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:06:11.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:06:42.622+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:06:42.590+0000] {timeout.py:68} ERROR - Process timed out, PID: 2702
+[2025-10-16T00:07:22.539+0000] {processor.py:161} INFO - Started process (PID=2708) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:07:22.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:07:22.546+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:07:22.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:07:52.863+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:07:52.744+0000] {timeout.py:68} ERROR - Process timed out, PID: 2708
+[2025-10-16T00:08:29.436+0000] {processor.py:161} INFO - Started process (PID=2714) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:08:29.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:08:29.445+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:08:29.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:12:06.107+0000] {processor.py:161} INFO - Started process (PID=2717) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:12:08.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:12:12.319+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:12:09.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:12:51.769+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:12:48.213+0000] {timeout.py:68} ERROR - Process timed out, PID: 2717
+[2025-10-16T00:14:05.061+0000] {processor.py:161} INFO - Started process (PID=2722) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:14:06.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:14:09.873+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:14:07.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:15:59.346+0000] {processor.py:161} INFO - Started process (PID=2725) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:15:59.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:15:59.359+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:15:59.357+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:18:29.515+0000] {processor.py:161} INFO - Started process (PID=2728) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:18:31.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:18:31.355+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:18:31.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:30:51.724+0000] {processor.py:161} INFO - Started process (PID=2731) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:30:52.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:30:58.404+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:30:56.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:35:30.157+0000] {processor.py:161} INFO - Started process (PID=2734) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:35:42.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:37:09.674+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:36:30.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:39:10.743+0000] {processor.py:161} INFO - Started process (PID=2737) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:39:13.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:39:20.784+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:39:17.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:40:30.594+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:39:59.590+0000] {timeout.py:68} ERROR - Process timed out, PID: 2737
+[2025-10-16T00:43:37.893+0000] {processor.py:161} INFO - Started process (PID=2741) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:43:37.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:43:37.934+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:43:37.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:44:09.108+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:44:08.726+0000] {timeout.py:68} ERROR - Process timed out, PID: 2741
+[2025-10-16T00:44:56.588+0000] {processor.py:161} INFO - Started process (PID=2747) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:44:56.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:44:56.593+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:44:56.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:44:57.524+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:44:57.805+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:44:57.804+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:44:57.837+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:44:57.836+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-15 00:00:00+00:00, run_after=2025-10-16 00:00:00+00:00
+[2025-10-16T00:44:57.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.307 seconds
+[2025-10-16T00:45:28.204+0000] {processor.py:161} INFO - Started process (PID=2756) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:45:28.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:45:28.208+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:45:28.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:45:28.940+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:45:28.998+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:45:28.997+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:45:29.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 0.882 seconds
+[2025-10-16T00:45:59.371+0000] {processor.py:161} INFO - Started process (PID=2762) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:45:59.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:45:59.377+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:45:59.376+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:46:00.508+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:46:00.667+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:46:00.667+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:46:00.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.405 seconds
+[2025-10-16T00:46:56.911+0000] {processor.py:161} INFO - Started process (PID=2768) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:46:56.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:46:56.955+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:46:56.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:46:59.968+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:47:00.070+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:47:00.069+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:47:00.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 3.352 seconds
+[2025-10-16T00:47:30.518+0000] {processor.py:161} INFO - Started process (PID=2774) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:47:30.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:47:30.522+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:47:30.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:47:31.556+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:47:31.740+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:47:31.739+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:47:31.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.320 seconds
+[2025-10-16T00:48:02.173+0000] {processor.py:161} INFO - Started process (PID=2780) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:48:02.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:48:02.179+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:48:02.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:48:03.429+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:48:03.511+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:48:03.511+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:48:03.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.453 seconds
+[2025-10-16T00:48:33.972+0000] {processor.py:161} INFO - Started process (PID=2786) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:48:33.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:48:33.980+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:48:33.977+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:48:53.301+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:48:53.514+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:48:53.509+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:48:53.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 19.696 seconds
+[2025-10-16T00:49:24.050+0000] {processor.py:161} INFO - Started process (PID=2795) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:49:24.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:49:24.054+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:49:24.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:49:25.582+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:49:25.729+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:49:25.728+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:49:25.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.903 seconds
+[2025-10-16T00:49:56.400+0000] {processor.py:161} INFO - Started process (PID=2801) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:49:56.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:49:56.406+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:49:56.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:49:57.244+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:49:57.303+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:49:57.302+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:49:57.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 0.984 seconds
+[2025-10-16T00:50:27.745+0000] {processor.py:161} INFO - Started process (PID=2807) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:50:27.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:50:27.749+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:50:27.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:50:28.659+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:50:28.712+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:50:28.711+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:50:28.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.064 seconds
+[2025-10-16T00:50:59.084+0000] {processor.py:161} INFO - Started process (PID=2813) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:50:59.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:50:59.088+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:50:59.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:50:59.836+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:50:59.887+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:50:59.886+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:50:59.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 0.880 seconds
+[2025-10-16T00:51:30.355+0000] {processor.py:161} INFO - Started process (PID=2822) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:51:30.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:51:30.365+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:51:30.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:51:32.269+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:51:32.461+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:51:32.460+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:51:32.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 2.253 seconds
+[2025-10-16T00:53:51.696+0000] {processor.py:161} INFO - Started process (PID=2828) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:53:51.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:53:51.720+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:53:51.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:54:22.544+0000] {processor.py:161} INFO - Started process (PID=2831) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:54:22.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:54:22.548+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:54:22.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:54:23.973+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:54:24.167+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:54:24.163+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T00:54:24.243+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:54:24.241+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-16T00:54:24.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.757 seconds
+[2025-10-16T00:54:54.709+0000] {processor.py:161} INFO - Started process (PID=2837) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:54:54.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:54:54.713+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:54:54.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:55:37.690+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:55:28.076+0000] {timeout.py:68} ERROR - Process timed out, PID: 2837
+[2025-10-16T00:56:29.614+0000] {processor.py:161} INFO - Started process (PID=2843) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:56:29.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:56:29.619+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:56:29.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:57:01.028+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:57:01.001+0000] {timeout.py:68} ERROR - Process timed out, PID: 2843
+[2025-10-16T00:57:39.634+0000] {processor.py:161} INFO - Started process (PID=2849) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:57:39.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:57:39.637+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:57:39.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:58:11.436+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:58:10.166+0000] {timeout.py:68} ERROR - Process timed out, PID: 2849
+[2025-10-16T00:59:01.613+0000] {processor.py:161} INFO - Started process (PID=2855) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:59:01.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T00:59:01.618+0000] {logging_mixin.py:188} INFO - [2025-10-16T00:59:01.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T00:59:04.253+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:01:11.031+0000] {processor.py:161} INFO - Started process (PID=2859) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:01:11.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:01:11.036+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:01:11.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:01:48.021+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:01:41.284+0000] {timeout.py:68} ERROR - Process timed out, PID: 2859
+[2025-10-16T01:02:34.425+0000] {processor.py:161} INFO - Started process (PID=2865) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:02:34.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:02:34.430+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:02:34.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:03:05.978+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:03:05.945+0000] {timeout.py:68} ERROR - Process timed out, PID: 2865
+[2025-10-16T01:03:40.172+0000] {processor.py:161} INFO - Started process (PID=2871) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:03:40.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:03:40.181+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:03:40.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:03:56.659+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:03:57.257+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:03:57.253+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T01:03:57.302+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:03:57.302+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-16T01:03:57.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 17.204 seconds
+[2025-10-16T01:04:27.700+0000] {processor.py:161} INFO - Started process (PID=2877) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:04:27.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:04:27.705+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:04:27.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:04:28.838+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:04:28.892+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:04:28.892+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T01:04:28.930+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:04:28.929+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-16T01:04:28.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.286 seconds
+[2025-10-16T01:04:59.342+0000] {processor.py:161} INFO - Started process (PID=2883) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:04:59.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:04:59.347+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:04:59.346+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:05:00.361+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:05:00.421+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:05:00.420+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T01:05:00.460+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:05:00.460+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-16T01:05:00.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.178 seconds
+[2025-10-16T01:05:30.646+0000] {processor.py:161} INFO - Started process (PID=2889) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:05:30.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:05:30.650+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:05:30.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:05:31.521+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:05:31.582+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:05:31.581+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T01:05:31.633+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:05:31.632+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-16T01:05:31.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.029 seconds
+[2025-10-16T01:06:02.001+0000] {processor.py:161} INFO - Started process (PID=2895) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:06:02.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:06:02.006+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:06:02.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:06:02.765+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:06:02.816+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:06:02.815+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T01:06:02.850+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:06:02.850+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-16T01:06:02.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 0.895 seconds
+[2025-10-16T01:06:33.180+0000] {processor.py:161} INFO - Started process (PID=2901) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:06:33.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:06:33.184+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:06:33.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:06:34.204+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:06:34.328+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:06:34.324+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T01:06:34.365+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:06:34.365+0000] {dag.py:3947} INFO - Setting next_dagrun for openbrewery_medallion to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-16T01:06:34.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/openbrewery_dag.py took 1.237 seconds
+[2025-10-16T01:07:04.565+0000] {processor.py:161} INFO - Started process (PID=2907) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:07:04.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:07:04.570+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:07:04.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:07:35.212+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:07:35.190+0000] {timeout.py:68} ERROR - Process timed out, PID: 2907
+[2025-10-16T01:08:28.537+0000] {processor.py:161} INFO - Started process (PID=2913) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:08:28.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:08:28.542+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:08:28.540+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:08:59.015+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:08:58.843+0000] {timeout.py:68} ERROR - Process timed out, PID: 2913
+[2025-10-16T01:09:41.969+0000] {processor.py:161} INFO - Started process (PID=2919) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:09:41.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:09:41.975+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:09:41.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:10:13.881+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:10:12.144+0000] {timeout.py:68} ERROR - Process timed out, PID: 2919
+[2025-10-16T01:10:51.745+0000] {processor.py:161} INFO - Started process (PID=2925) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:10:51.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:10:51.750+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:10:51.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:11:27.290+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:11:23.783+0000] {timeout.py:68} ERROR - Process timed out, PID: 2925
+[2025-10-16T01:12:29.897+0000] {processor.py:161} INFO - Started process (PID=2931) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:12:29.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:12:29.905+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:12:29.902+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:12:37.609+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:17:42.356+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:17:38.932+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-16T01:18:14.442+0000] {processor.py:161} INFO - Started process (PID=2935) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:18:14.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:18:14.448+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:18:14.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:18:49.053+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:18:46.134+0000] {timeout.py:68} ERROR - Process timed out, PID: 2935
+[2025-10-16T01:19:37.178+0000] {processor.py:161} INFO - Started process (PID=2941) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:19:37.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:19:37.183+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:19:37.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:20:09.183+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:20:08.359+0000] {timeout.py:68} ERROR - Process timed out, PID: 2941
+[2025-10-16T01:20:43.163+0000] {processor.py:161} INFO - Started process (PID=2947) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:20:43.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:20:43.168+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:20:43.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:20:50.158+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:22:12.582+0000] {processor.py:161} INFO - Started process (PID=2951) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:22:12.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:22:12.586+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:22:12.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:22:23.236+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:23:38.040+0000] {processor.py:161} INFO - Started process (PID=2955) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:23:38.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:23:38.047+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:23:38.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:23:58.055+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:26:52.339+0000] {processor.py:161} INFO - Started process (PID=2959) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:26:52.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:26:52.344+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:26:52.342+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:26:57.210+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:28:13.968+0000] {processor.py:161} INFO - Started process (PID=2963) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:28:13.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:28:13.973+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:28:13.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:28:47.165+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:28:44.582+0000] {timeout.py:68} ERROR - Process timed out, PID: 2963
+[2025-10-16T01:29:38.311+0000] {processor.py:161} INFO - Started process (PID=2969) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:29:38.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:29:38.317+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:29:38.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:29:40.955+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:31:11.451+0000] {processor.py:161} INFO - Started process (PID=2973) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:31:11.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:31:11.457+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:31:11.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:31:25.425+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:33:21.532+0000] {processor.py:161} INFO - Started process (PID=2977) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:33:21.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:33:21.538+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:33:21.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:33:54.818+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:33:52.267+0000] {timeout.py:68} ERROR - Process timed out, PID: 2977
+[2025-10-16T01:34:32.850+0000] {processor.py:161} INFO - Started process (PID=2983) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:34:32.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:34:32.856+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:34:32.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:34:36.128+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:36:03.702+0000] {processor.py:161} INFO - Started process (PID=2987) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:36:03.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:36:03.707+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:36:03.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:36:08.284+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:37:44.254+0000] {processor.py:161} INFO - Started process (PID=2991) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:37:44.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:37:44.259+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:37:44.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:37:48.152+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:39:07.764+0000] {processor.py:161} INFO - Started process (PID=2995) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:39:07.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:39:07.769+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:39:07.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:39:14.471+0000] {processor.py:840} INFO - DAG(s) 'openbrewery_medallion' retrieved from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:41:32.494+0000] {processor.py:161} INFO - Started process (PID=2999) to work on /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:41:32.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/openbrewery_dag.py for tasks to queue
+[2025-10-16T01:41:32.499+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:41:32.497+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/openbrewery_dag.py
+[2025-10-16T01:42:02.917+0000] {logging_mixin.py:188} INFO - [2025-10-16T01:42:02.874+0000] {timeout.py:68} ERROR - Process timed out, PID: 2999
