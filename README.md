@@ -42,7 +42,8 @@ flowchart TD
     D -->|Expose for Analytics| E[BI Tools / Dashboards]
 
 
-## ⚙️ Pipeline Orchestration (Airflow DAG)
+
+## Pipeline Orchestration (Airflow DAG)
 
 The pipeline is orchestrated by Apache Airflow, scheduled to run daily.
 
@@ -72,7 +73,7 @@ bees-breweries-case/
 ├── requirements.txt              # Dependencies
 └── README.md                     # Documentation (this file)
 
-##🧪 Testing
+## 🧪 Testing
 
 Tests are written using pytest.
 
@@ -130,9 +131,9 @@ Default login: airflow / airflow
 4️⃣ Trigger the DAG:
 Once the webserver is up, enable & trigger openbrewery_medallion.
 
-##🔍 Monitoring & Alerting
+## 🔍 Monitoring & Alerting
 
-##🧩 Failures
+### 🧩 Failures
 
 Airflow handles retries and backoff (retries=2, retry_delay=5min)
 
@@ -140,7 +141,7 @@ Email alerts configured via ALERT_EMAIL environment variable
 
 Failed tasks logged in /opt/airflow/logs
 
-##📊 Data Quality
+### 📊 Data Quality
 
 Add a validation task (future improvement):
 
@@ -150,7 +151,7 @@ Validate non-null brewery names
 
 Detect duplicates by brewery_id
 
-##📈 Observability
+### 📈 Observability
 
 You can extend monitoring by integrating:
 
@@ -160,7 +161,7 @@ Sentry or Datadog for alerting
 
 Great Expectations for data validation in Silver/Gold layers
 
-##☁️ Cloud or Local Deployment
+### ☁️ Cloud or Local Deployment
 
 You can run the pipeline:
 
@@ -174,7 +175,7 @@ Data stored in S3 / GCS instead of local folders
 
 Use environment variables for paths (e.g., BRONZE_DIR, SILVER_DIR, GOLD_DIR)
 
-##🚀 Future Improvements
+### 🚀 Future Improvements
 
 Switch Silver/Gold outputs to Parquet (for columnar efficiency)
 
@@ -186,7 +187,7 @@ Deploy Airflow on Kubernetes for scalability
 
 Add CI/CD pipeline (GitHub Actions) for automated testing
 
-##👩‍💻 Author
+### 👩‍💻 Author
 
-Marina Alvinhaes
+Marina Vinhaes
 📧 marinalvinhaes@gmail.com 
