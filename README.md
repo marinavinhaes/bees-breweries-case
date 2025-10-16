@@ -31,6 +31,7 @@ This repository implements a **data engineering pipeline** that consumes the [Op
 | **Monitoring / Quality** | Airflow alerts, Great Expectations (optional) |
 | **Containerization** | Docker + docker-compose |
 
+---
 
 ## 🏗️ Architecture Overview
 
@@ -40,16 +41,18 @@ flowchart TD
     B -->|Clean, Normalize| C[Silver Layer 🥈<br>Partitioned CSV/Parquet by Location]
     C -->|Aggregate Metrics| D[Gold Layer 🥇<br>Aggregated KPIs: Breweries by Type & Location]
     D -->|Expose for Analytics| E[BI Tools / Dashboards]
+```
+---
 
-
-
-## Pipeline Orchestration (Airflow DAG)
+## ```Pipeline Orchestration (Airflow DAG)
+``` 
 
 The pipeline is orchestrated by Apache Airflow, scheduled to run daily.
 
+```mermaid
 flowchart LR
     F[fetch_bronze<br>Fetch API Data] --> T[transform_silver_gold<br>Clean & Aggregate]
-
+```
 
 Retries: Configured with exponential backoff
 
@@ -58,6 +61,8 @@ Failure callback: Logs detailed errors
 Email alert: Sent on task failure
 
 Parallelism: Only 1 active run at a time to prevent race conditions
+
+---
 
 ## 🧩 Project Structure
 bees-breweries-case/
