@@ -44,8 +44,7 @@ flowchart TD
 ```
 ---
 
-## ```Pipeline Orchestration (Airflow DAG)
-``` 
+## ```Pipeline Orchestration (Airflow DAG)``` 
 
 The pipeline is orchestrated by Apache Airflow, scheduled to run daily.
 
@@ -65,6 +64,7 @@ Parallelism: Only 1 active run at a time to prevent race conditions
 ---
 
 ## 🧩 Project Structure
+
 bees-breweries-case/
 ├── dags/
 │   ├── openbrewery_dag.py        # Airflow DAG definition
@@ -77,6 +77,8 @@ bees-breweries-case/
 ├── docker-compose.yml            # Airflow + Postgres environment
 ├── requirements.txt              # Dependencies
 └── README.md                     # Documentation (this file)
+
+---
 
 ## 🧪 Testing
 
@@ -100,6 +102,7 @@ def test_write_bronze_creates_file():
         loaded = json.load(f)
     assert loaded == data
 
+---
 
 ## 🚀 How to Run Locally
 
@@ -135,6 +138,8 @@ Default login: airflow / airflow
 
 4️⃣ Trigger the DAG:
 Once the webserver is up, enable & trigger openbrewery_medallion.
+
+---
 
 ## 🔍 Monitoring & Alerting
 
@@ -191,6 +196,8 @@ Integrate Great Expectations for data validation
 Deploy Airflow on Kubernetes for scalability
 
 Add CI/CD pipeline (GitHub Actions) for automated testing
+
+---
 
 ### 👩‍💻 Author
 
