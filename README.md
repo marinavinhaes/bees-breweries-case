@@ -69,9 +69,9 @@ Parallelism: Only 1 active run at a time to prevent race conditions
 bees-breweries-case/
 ├── dags/
 │   ├── openbrewery_dag.py        # Airflow DAG definition
+├── src/
 │   ├── fetcher.py                # API ingestion logic (Bronze)
 │   ├── transformer.py            # Transformation logic (Silver & Gold)
-├── src/
 │   └── tests/
 │       ├── test_fetcher.py       # Unit tests for fetcher
 │       └── test_transformer.py   # Unit tests for transformer
