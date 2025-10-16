@@ -65,6 +65,7 @@ Parallelism: Only 1 active run at a time to prevent race conditions
 
 ## 🧩 Project Structure
 
+```
 bees-breweries-case/
 ├── dags/
 │   ├── openbrewery_dag.py        # Airflow DAG definition
@@ -77,6 +78,7 @@ bees-breweries-case/
 ├── docker-compose.yml            # Airflow + Postgres environment
 ├── requirements.txt              # Dependencies
 └── README.md                     # Documentation (this file)
+```
 
 ---
 
@@ -92,7 +94,9 @@ docker-compose run --rm pytest
 
 This executes all tests inside src/tests.
 
+```
 Example test
+
 def test_write_bronze_creates_file():
     data = [{"id": "1", "name": "Test Brewery"}]
     tmpdir = tempfile.mkdtemp()
@@ -101,7 +105,7 @@ def test_write_bronze_creates_file():
     with open(path, "r") as f:
         loaded = json.load(f)
     assert loaded == data
-
+```
 ---
 
 ## 🚀 How to Run Locally
