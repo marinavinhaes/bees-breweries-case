@@ -90,7 +90,9 @@ Running Tests
 
 To run unit tests inside Docker:
 
+```
 docker-compose run --rm pytest
+```
 
 This executes all tests inside src/tests.
 
@@ -115,10 +117,11 @@ def test_write_bronze_creates_file():
 - At least 4 GB RAM allocated to Docker
 - Ports 8080 (Airflow UI) and 4040 (Spark UI) available
 
+```
 Clone the repo
 git clone https://github.com/<your-username>/bees-breweries-case.git
 cd bees-breweries-case
-
+```
 
 ### 2️⃣ Build and start Airflow + Spark
 
@@ -126,13 +129,14 @@ From the project root:
 
 1️⃣ Start all services:
 
+```
 docker-compose up -d
-
+```
 
 2️⃣ Initialize Airflow database:
-
+```
 docker exec -it bees-breweries-case-airflow-webserver airflow db init
-
+```
 
 3️⃣ Access the Airflow UI:
 
